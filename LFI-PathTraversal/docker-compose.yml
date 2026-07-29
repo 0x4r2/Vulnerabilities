@@ -1,0 +1,7 @@
+services:
+  novashop:
+    build: .
+    container_name: novashop-gallery
+    ports:
+      - "8000:80"
+    restart: unless-stopped
