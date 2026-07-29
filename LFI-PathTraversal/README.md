@@ -6,6 +6,15 @@ Part of a planned multi-repo lab suite, separated by vulnerability class. This r
 
 ## Quick start
 
+Clone the repo and enter this directory:
+
+```bash
+git clone https://github.com/0x4r2/Vulnerabilities.git
+cd Vulnerabilities/LFI-PathTraversal
+```
+
+Build and start:
+
 ```bash
 docker compose up -d --build
 ```
@@ -80,4 +89,3 @@ Real Apache/PHP logs exist at predictable paths:
 ## Notes
 
 - Local use only. Don't expose port 8000 to an untrusted network.
-- No git repository is initialized by this build — when you commit, do not add a Claude co-author trailer.
